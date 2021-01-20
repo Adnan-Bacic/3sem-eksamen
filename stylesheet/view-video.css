@@ -1,0 +1,19 @@
+/*view video page*/
+.video-list {
+  max-height: 425px;
+  overflow-y: scroll; }
+
+.media-body {
+  width: 100%; }
+
+.tilfojvideo {
+  background-color: darkgreen; }
+
+.texttilfoj {
+  color: darkgreen; }
+
+.inputtitel {
+  margin-top: 15px; }
+
+.video {
+  width: 50%; }

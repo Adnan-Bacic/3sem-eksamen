@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/*fixing bootstrap container padding in the sides*/
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+p {
+  margin-bottom: inherit;
+}
+
+/*Add new catagory page*/
+.form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.input-txt {
+  padding-right: 10px;
+}
+
+.input-field {
+  padding: 5px;
+  border: none;
+  width: 300px;
+}
+
+/*view video page*/
+.video-list {
+  max-height: 425px;
+  overflow-y: scroll;
+}
+
+.media-body {
+  width: 100%;
+}
+
+.tilfojvideo {
+  background-color: darkgreen;
+}
+
+.texttilfoj {
+  color: darkgreen;
+}
+
+.inputtitel {
+  margin-top: 15px;
+}
+
+.video {
+  width: 50%;
+}
+
+body {
+  background: #eee !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin-heading h1 {
+  margin-right: 15px;
+}
+
+.pic {
+  max-width: 90px;
+  paddding-top: 20px;
+  margin-left: 15px;
+}
+
+.password {
+  margin-top: 8px;
+}
+
+.form-container {
+  border: 1px solid black;
+  background-color: #313131;
+}
+
+@media screen and (max-width: 480px) {
+  .input-field {
+    width: 65%;
+  }
+  .video-container {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .video-description {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-bottom: 20px;
+  }
+  .video-list {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .adminbtn {
+    margin-bottom: 10px;
+  }
+}

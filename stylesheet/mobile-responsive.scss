@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px){
+	//view video page
+	.input-field{
+		width: 65%;
+	}
+	.video-container{
+		order: 1;
+	}
+	.video-description{
+		order: 2;
+		margin-bottom: 20px;
+	}
+	.video-list{
+		order: 3;
+	}
+	.adminbtn{
+		margin-bottom: 10px;
+	}
+}
